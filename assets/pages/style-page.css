@@ -26,3 +26,28 @@ margin: 90px 76px 0 76px;
     border-radius: 100px;
     gap: 5px;
 }
+.menu {
+    margin-top: 146px;
+}
+.menu__link {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
+    line-height: 160%;
+    color: #5222d0;
+    text-decoration: none;
+    padding-right: 34px;
+    
+}
+.main {
+    max-width: 1241px;
+    margin: 90px 125px 0 125px;
+}
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr;
+    gap: 70px;
+}
+.items-last-element {
+    background-color: #EC615B;
+}
