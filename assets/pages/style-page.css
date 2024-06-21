@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+    width: 1440px;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+margin: 90px 76px 0 76px;
+
+}
+
+.btn-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 38px;
+    background: #5222d0;
+    font-family: "Intro ", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 100px;
+    gap: 5px;
+}

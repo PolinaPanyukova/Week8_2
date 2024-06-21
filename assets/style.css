@@ -13,6 +13,9 @@ margin: 90px 76px 0 76px;
 }
 
 .header__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 115px;
     height: 38px;
     background: #5222d0;
@@ -21,6 +24,7 @@ font-weight: 400;
 font-size: 13px;
 color: #fff;
 border-radius: 100px;
+gap: 5px;
 }
 
 .main {
@@ -72,9 +76,7 @@ border-radius: 100px;
     padding-right: 34px;
     
 }
-.rigt-item {
-    
-}
+
 
 @font-face {
     src: url(./font-intro/IntroDemo-BlackCAPS.otf);
