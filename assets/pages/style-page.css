@@ -8,7 +8,7 @@ body{
 .header {
     display: flex;
     justify-content: space-between;
-margin: 90px 76px 0 76px;
+    margin: 90px 76px 0 76px;
 
 }
 
@@ -19,7 +19,7 @@ margin: 90px 76px 0 76px;
     width: 115px;
     height: 38px;
     background: #5222d0;
-    font-family: "Intro ", sans-serif;
+    font-family: "Intro", sans-serif;
     font-weight: 400;
     font-size: 13px;
     color: #fff;
@@ -27,7 +27,7 @@ margin: 90px 76px 0 76px;
     gap: 5px;
 }
 .menu {
-    margin-top: 146px;
+    margin-top: 114px;
 }
 .menu__link {
     font-family: "Roboto Slab", sans-serif;
@@ -42,12 +42,90 @@ margin: 90px 76px 0 76px;
     max-width: 1241px;
     margin: 90px 125px 0 125px;
 }
+.paragr {
+    font-family: "Intro", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+}
 .items {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2fr;
-    gap: 70px;
+    grid-template-columns: repeat(3, 365px);
+    gap: 71px;
 }
 .items-last-element {
     background-color: #EC615B;
+}
+.items-element__text {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000;
+}
+
+.items-two {
+    display: grid;
+    grid-template-columns: repeat(3, 365px);
+    gap: 71px;
+}
+
+.items-two-element {
+margin-top: 25px;
+}
+.items-two-element__text {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+        line-height: 160%;
+color: #000;
+}
+.items-two-last-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ec615b;
+}
+
+.items-two-last-element__btn {
+    width: 135px;
+    height: 38px;
+    border-radius:100px;
+    background: #5222d0;
+    margin: 0 212px 55px 18px;
+    font-family: "Intro ", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.items-two-last-element__text {
+    font-family: "Intro", sans-serif;;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #fff;
+    margin: 25px 22px 6px 18px;
+}
+.items-two-last-element__email {
+    width: 323px;
+    height: 50px;
+    background: #fff;
+    font-family: "Roboto Slab", sans-serif;;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000;
+    margin: 0 22px 23px 18px;
+}
+
+@font-face {
+    src: url(./font-intro/IntroDemo-BlackCAPS.otf);
+    font-family: "Intro"; 
+}
+
+@font-face {
+    src: url(./font-roboto-slab/RobotoSlab-VariableFont_wght.ttf);
+    font-family: "Roboto Slab"; 
 }
